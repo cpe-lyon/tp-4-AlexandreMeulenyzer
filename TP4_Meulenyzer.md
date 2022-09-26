@@ -53,3 +53,39 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
 68953
 ```
+
+7/   
+Glances : Glances est un outil de surveillance pour GNU/Linux ou BSD.  
+
+tldr :Les pages TLDR sont un effort communautaire pour simplifier les pages de manuel avec des exemples pratiques  
+
+Hollywood : Simule un centre de contrôle affichant des logs qui défilent, des lignes de commandes et du binaire, pour simulé une session de hacking bien cliché.  
+
+8/
+```bash
+sudo apt install sudoku
+```
+
+## Exercice 2.
+GNU Core Utilities est le paquet dans lequel nous retrouvons ls
+```bash
+User@localhost:~$ dpkg -S /bin/ls
+coreutils: /bin/ls
+```
+Script : 
+```bash
+#!/bin/bash
+
+which -a $1 | xargs dpkg -S 2> /dev/null
+```
+ ## Exercice 3.
+ 
+
+
+
+
+
+
+
+
+
