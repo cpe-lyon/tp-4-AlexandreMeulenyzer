@@ -79,7 +79,16 @@ Script :
 which -a $1 | xargs dpkg -S 2> /dev/null
 ```
  ## Exercice 3.
+
+```bash
+(dpkg -l "coreutils" | grep "^i") && echo "installé" || echo "non installé"
+ii  coreutils      8.32-4.1ubuntu1 amd64        GNU core utilities
+installé
+```
+
+ ## Exercice 4.
  
+
 
 
 
