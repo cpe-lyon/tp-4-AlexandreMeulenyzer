@@ -102,6 +102,63 @@ Lynx : Lynx est un navigateurs web en mode texte utilisable via une console ou u
 User@localhost:~$ ls /etc/apt/sources.list.d/
 linuxuprising-ubuntu-java-jammy.list
 ```
+Le dépot de la team Linux Uprising à bien été enregistré
+
+## Exercice 7. Installation d’un logiciel à partir du code source
+
+```bash
+                                        &&
+                                    & &&& &
+                                    & &&/&\&
+                                     & &&&&&
+                                   &&&&&&&
+                                  &&&&&&&~/
+                                 &&&/&&&\|
+                                & &/~&&& \|
+                             &&&&_&/&~&& //~
+                             & &&&&  |/_\/|\
+                              &   &\/~   &|        &
+                                  & \/_/_&/& _/|&&&
+                                     /~|/ /&&&&&&&
+                                       /&&/&&&&&&
+                                        &~|/~ &&
+                                         /~/~/_/                    
+                                       //~ /_/ /   /_/_/___/_/   
+                                       /_/_/    
+                         :___________./~~~\.___________:
+                          \                           / 
+                           \_________________________/ 
+                           (_)                     (_)
+
+```
+
+Et si dessous, nous pouvons voir graçe a checkinstall que cbonsai est bien installé
+```bash
+*****************************************
+**** Debian package creation selected ***
+*****************************************
+
+This package will be built according to these values: 
+
+0 -  Maintainer: [ root@localhost ]
+1 -  Summary: [ cbonsai ]
+2 -  Name:    [ cbonsai ]
+3 -  Version: [ 20220929 ]
+4 -  Release: [ 1 ]
+5 -  License: [ GPL ]
+6 -  Group:   [ checkinstall ]
+7 -  Architecture: [ amd64 ]
+8 -  Source location: [ cbonsai ]
+9 -  Alternate source location: [  ]
+10 - Requires: [  ]
+11 - Recommends: [  ]
+12 - Suggests: [  ]
+13 - Provides: [ cbonsai ]
+14 - Conflicts: [  ]
+15 - Replaces: [  ]
+```
+
+
 
 
 
