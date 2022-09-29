@@ -158,14 +158,33 @@ This package will be built according to these values:
 15 - Replaces: [  ]
 ```
 
+## Exercice 8. Création de dépôt personnalisé.
+
+Création d'un packet Debian:
+```bash
+User@localhost:/home/$$ dpkg-deb --build origine-commande
+dpkg-deb: building package 'origine-commande' in 'origine-commande.deb'.
+```
+Création du dépôt personnel avec reprepro:
 
 
 
 
-
-
-
-
-
-
+Signature du dépôt avec GPG:  
+Après toutes les étapes suivie de l'exercice, le dépot est bien et belle configurée 
+```bash
+User@localhost:/home/$/repo-cpe$ sudo apt update
+Get:1 file:/home/$/repo-cpe cosmic InRelease [2,466 B]
+Get:1 file:/home/$/repo-cpe cosmic InRelease [2,466 B]
+Hit:2 https://ppa.launchpadcontent.net/linuxuprising/java/ubuntu jammy InRelease
+Hit:3 http://us.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:4 http://us.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:5 http://us.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:6 http://us.archive.ubuntu.com/ubuntu jammy-security InRelease
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+All packages are up to date.
+W: file:/home/$/repo-cpe/dists/cosmic/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+```
 
