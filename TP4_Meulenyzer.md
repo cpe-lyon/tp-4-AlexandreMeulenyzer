@@ -165,7 +165,58 @@ Création d'un packet Debian:
 User@localhost:/home/$$ dpkg-deb --build origine-commande
 dpkg-deb: building package 'origine-commande' in 'origine-commande.deb'.
 ```
-Création du dépôt personnel avec reprepro:
+Ici l'arborescence du fichier après utilisation de reprepro :  
+
+```bash
+User@localhost:/home/$/repo-cpe$ tree 
+.
+├── conf
+│   └── distributions
+├── db
+│   ├── checksums.db
+│   ├── contents.cache.db
+│   ├── packages.db
+│   ├── references.db
+│   ├── release.caches.db
+│   └── version
+├── dists
+│   ├── cosmic
+│   │   ├── InRelease
+│   │   ├── Release
+│   │   ├── Release.gpg
+│   │   └── universe
+│   │       ├── binary-amd64
+│   │       │   ├── Packages
+│   │       │   ├── Packages.gz
+│   │       │   └── Release
+│   │       └── binary-i386
+│   │           ├── Packages
+│   │           ├── Packages.gz
+│   │           └── Release
+│   └── focal
+│       ├── InRelease
+│       ├── Release
+│       ├── Release.gpg
+│       └── universe
+│           ├── binary-amd64
+│           │   ├── Packages
+│           │   ├── Packages.gz
+│           │   └── Release
+│           └── binary-i386
+│               ├── Packages
+│               ├── Packages.gz
+│               └── Release
+├── packages
+│   └── origine-commande.deb
+├── pool
+│   └── universe
+│       └── o
+│           └── origine-commande
+│               └── origine-commande_0.1_all.deb
+└── public.key
+
+16 directories, 28 files
+```
 
 
 
