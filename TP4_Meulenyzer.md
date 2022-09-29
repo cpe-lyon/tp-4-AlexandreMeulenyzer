@@ -86,7 +86,10 @@ ii  coreutils      8.32-4.1ubuntu1 amd64        GNU core utilities
 installé
 ```
 
- ## Exercice 4.
+ ## Exercice 5.
+
+https://github.com/cpe-lyon/tp-4-AlexandreMeulenyzer/blob/main/Capture d’écran 2022-09-29 082339.jpg
+
  
 
 
