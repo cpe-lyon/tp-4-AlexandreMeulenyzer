@@ -97,7 +97,11 @@ emacs : Emacs est une famille d'éditeurs de texte disposant d'un ensemble exten
 Lynx : Lynx est un navigateurs web en mode texte utilisable via une console ou un terminal
 ![Lynx](Capture%20d’écran%202022-09-29%20083712.jpg)
 
-
+ ## Exercice 6.
+```bash
+User@localhost:~$ ls /etc/apt/sources.list.d/
+linuxuprising-ubuntu-java-jammy.list
+```
 
 
 
