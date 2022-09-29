@@ -88,9 +88,15 @@ installé
 
  ## Exercice 5.
 
-https://github.com/cpe-lyon/tp-4-AlexandreMeulenyzer/blob/main/Capture d’écran 2022-09-29 082339.jpg
+![aptitude](./Capture%20d%E2%80%99%C3%A9cran%202022-09-29%20082339.jpg)
 
- 
+
+emacs : Emacs est une famille d'éditeurs de texte disposant d'un ensemble extensible de fonctionnalités
+
+Lynx : Lynx est un navigateurs web en mode texte utilisable via une console ou un terminal
+
+
+
 
 
 
